@@ -1,0 +1,97 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+nav {
+  background-color: #0b3d91;
+}
+
+nav ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul.nav li {
+  float: left;
+}
+
+nav ul.nav li a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul.nav li a:hover {
+  background-color: #092b66;
+}
+
+.content {
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  color: #0b3d91;
+}
+
+.calc-form {
+  margin: 20px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.calc-form label {
+  text-align: left;
+  font-weight: bold;
+}
+
+.calc-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calc-form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calc-form button:hover {
+  background-color: #1e7e34;
+}
+
+.result-box {
+  margin-top: 30px;
+  background: #e6f4ea;
+  border: 1px solid #28a745;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.button {
+  background: #0b3d91;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background: #092b66;
+}
